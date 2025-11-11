@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spectacular Landing Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
+    .btn-primary {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: white;
+      color: #2575fc;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background: rgba(255, 255, 255, 0.85);
+    }
+    .features {
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .feature-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+    .feature-box h3 {
+      margin-bottom: 10px;
+      color: #2575fc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #222;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Your Spectacular Landing Page</h1>
+  <p>Clean. Modern. Beautiful. Everything in one single HTML file.</p>
+  <a href="#features" class="btn-primary">Explore More</a>
+</header>
+
+<section id="features" class="features">
+  <div class="feature-box">
+    <h3>⚡ Fast</h3>
+    <p>Loads instantly with optimized content and smooth layout.</p>
+  </div>
+  <div class="feature-box">
+    <h3>🎨 Beautiful</h3>
+    <p>Elegant UI design with strong visual appeal.</p>
+  </div>
+  <div class="feature-box">
+    <h3>📱 Responsive</h3>
+    <p>Perfectly adapts to all screen sizes from mobile to desktop.</p>
+  </div>
+  <div class="feature-box">
+    <h3>🛠️ Easy to Edit</h3>
+    <p>All code in a single file—simple and customizable.</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Your Landing Page — Built in one HTML file
+</footer>
+
+</body>
+</html>
